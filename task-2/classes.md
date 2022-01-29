@@ -17,12 +17,14 @@ Responsibilities:
 * Browse Events
 * Filter Events
 * Select the number of Tickets
+* Acquire SeatingPlan
 * Select Seats
 * Purchase Tickets
 
 Collaborators:
 * Event
 * SeatingMap
+* SeatingPlan
 * Seat
 * Ticket
 
@@ -50,10 +52,18 @@ Collaborators:
 
 Responsibilities:
 * Show a map of Seats
+
+Collaborators:
+* Seat
+
+### ClassName: SeatingPlan
+
+Responsibilities:
 * Give seating plan
 
 Collaborators:
 * Seat
+* SeatingMap
 
 ### ClassName: Seat
 
